@@ -57,8 +57,8 @@ public class Main {
 
         int[] array = {0, 0, 0, 1, 1, 1};
 
-        for (int j = 0; j < array.length; j++){
-            if (array[j] == 0){
+        for (int j = 0; j < array.length; j++) {
+            if (array[j] == 0) {
                 array[j] = 1;
             } else {
                 array[j] = 0;
@@ -88,8 +88,8 @@ public class Main {
 
         //Задание 13
         int n = 5;
-        int [][] arrayTwo = new int [n][n];
-        for (int i = 0; i < n; i++){
+        int[][] arrayTwo = new int[n][n];
+        for (int i = 0; i < n; i++) {
             arrayTwo[i][i] = 1;
             arrayTwo[i][n - 1 - i] = 1;
         }
@@ -103,7 +103,7 @@ public class Main {
         System.out.println();
 
         //Задание 14
-        int [] resultArr = Task.argsTwo(5, 10);
+        int[] resultArr = Task.argsTwo(5, 10);
         System.out.println(Arrays.toString(resultArr));
     }
 }

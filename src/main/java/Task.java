@@ -25,7 +25,7 @@ public class Task {
 
         if (value <= 0) {
             System.out.println("Красный");
-        } else if (0 < value && value <= 100) {
+        } else if (value <= 100) {
             System.out.println("Желтый");
         } else {
             System.out.println("Зеленый");
@@ -61,11 +61,8 @@ public class Task {
 
     //Задание 7
     public static boolean paramInteger(int D) {
-        if (D < 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return true;
+
     }
 
     //Задание 8
@@ -93,11 +90,12 @@ public class Task {
     }
 
     //Задание 14
-    public static int[] argsTwo (int len, int initialValue){
-        int[] arr = new int [len];
+    public static int[] argsTwo(int len, int initialValue) {
+        int[] arr = new int[len];
 
-        for (int i = 0; i < len; i++){
+        for (int i = 0; i < len; i++) {
             arr[i] = initialValue;
-        } return arr;
+        }
+        return arr;
     }
 }
