@@ -41,12 +41,4 @@ public class Park {
             }
         }
     }
-    public static void main(String[] args) {
-        Park park = new Park("ЦПКиО им. Маяковского", 3);
-
-        park.addAttraction(0, "Американские горки", "10:00 - 20:00", 500.50);
-        park.addAttraction(1, "Колесо обозрения", "10:00 - 20:00", 380.55);
-        park.addAttraction(2, "Дом с привидениями", "10:00 - 20:00", 420.35);
-        park.displayAllAttractions();
-    }
 }
